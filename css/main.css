@@ -1,6 +1,15 @@
 /* Custom styles*/
 #banner {
     color: blue;
+    display: inline;
+}
+
+#banner ul {
+    display: block;
+}
+
+#banner ul li {
+    float: left;
 }
 
 #banner, form {
@@ -15,24 +24,14 @@
     overflow: none;
 }
 
-article {
+#headRight {
+    font-family: ;
     color: #045596;
-}
-
-aside #social {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
+    font-size: 100%;
+    width: 50%;
+    display: inline-block;
     float: right;
-    padding: 0px 5% 10px;
-    background-image: url(../img/containerBg.gif);
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        border-top: 20px solid #e44d26;
-}
+    margin-right: -5px;
 }
 
 /* ==========================================================================
@@ -178,7 +177,7 @@ nav a:hover {
 }
 
 .main aside {
-    color: #045596;
+    color: black;
     padding: 0px 5% 10px;
 }
 
