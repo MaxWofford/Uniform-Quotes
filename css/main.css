@@ -34,6 +34,20 @@
     margin-right: -5px;
 }
 
+article aside .ribbon {
+    border: none;
+    background-color: #FB8522;
+    color: white;
+}
+
+.ribbon a {
+    text-decoration: none;
+}
+
+.ribbon a:hover {
+    color: blue;
+}
+
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
