@@ -34,18 +34,25 @@
     margin-right: -5px;
 }
 
-article aside .ribbon {
+article aside {
     border: none;
     background-color: #FB8522;
     color: white;
+    font-size: 3em;
 }
 
-.ribbon a {
+a {
     text-decoration: none;
 }
 
-.ribbon a:hover {
-    color: blue;
+a:hover {
+    color: #045596;
+}
+
+.ribbonText {
+    font-family: Helvetica, Arial, sans-serif;
+    width: 50%;
+    line-height: 1em;
 }
 
 /* ==========================================================================
@@ -127,14 +134,12 @@ body {
     border-bottom: .5em solid #FB8522;
 }
 
-.footer-container,
-.main aside {
+.footer-container {
     border-top: 20px solid #e44d26;
 }
 
 .header-container,
-.footer-container,
-.main aside {
+.footer-container {
     background-image: url(../img/containerBg.gif);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -169,13 +174,8 @@ nav a {
     background: #FB8522;
 }
 
-nav a:hover,
-nav a:visited {
+a:visited {
     color: white;
-}
-
-nav a:hover {
-    text-decoration: underline;
 }
 
 /* ==============
@@ -191,7 +191,6 @@ nav a:hover {
 }
 
 .main aside {
-    color: black;
     padding: 0px 5% 10px;
 }
 
@@ -299,8 +298,10 @@ nav a:hover {
    ============ */
 
     .main article {
-        float: left;
-        width: 57%;
+        float: center;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .main aside {
